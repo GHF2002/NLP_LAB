@@ -35,7 +35,7 @@ for i in file.readlines():
     sentences = i.split(".")
     counter = 0
     for sentence in sentences:
-        print("For sentence", counter + 1, ", trigrams are: ")
+         print("For sentence", counter + 1, ", trigrams are: ")
         trigrams = ngrams(sentence.split(" "), 3)
         for grams in trigrams:
             print(grams)
@@ -121,7 +121,7 @@ for i in file.readlines():
 ('computers', 'to')
 ('to', 'find')
 ('find', 'ways')
-('ways', 'for')
+('ways', 'for'dhageyash15@gmail.com)
 ('for', 'computers')
 ('computers', 'to')
 ('to', 'process')
